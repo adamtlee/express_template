@@ -24,3 +24,5 @@ app.get('/', function(req, res) {
 app.listen(port, () => {
     console.log(`player app running on ${port}`)
 });
+
+module.exports = app
