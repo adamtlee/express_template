@@ -1,0 +1,21 @@
+{
+  "name": "express_template",
+  "version": "1.0.0",
+  "description": "Express Template",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Lee",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "supertest": "^3.1.0"
+  }
+}
